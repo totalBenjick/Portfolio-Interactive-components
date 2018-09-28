@@ -55,7 +55,7 @@ registerForm.addEventListener('submit', function(e) {
 	  	parrafoAbajoTaxId.innerHTML="Must provide a TaxID number"
 	  } else if ((typeof theFormTax!== "number")  && theFormTax.length!==10 ) {
 	  	parrafoAbajoTaxId.innerHTML= "TaxID is only numbers and must be 10 digits"
-	  }|
+	  }
  
 
 
